@@ -3,6 +3,7 @@
 import { Platform } from 'react-native';
 import styled from 'styled-components/native';
 import Constants from 'expo-constants';
+
 import colors from '../../styles/colors';
 
 const statusBarHeight =
@@ -18,6 +19,6 @@ export const Wrapper = styled.SafeAreaView`
 
 export const Heading = styled.Text`
   font-size: 32px;
-  font-weight: bold;
   color: ${colors.purple};
+  font-family: roboto_700;
 `;
